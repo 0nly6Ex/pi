@@ -2,7 +2,7 @@ from flask import Flask
 from flask import request
 from flask import render_template
 from threading import Thread
-from sympy.mpmath import mp
+from mpmath import mp
 app = Flask(__name__)  
 
 @app.route('/')
