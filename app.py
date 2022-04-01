@@ -2,12 +2,7 @@ from flask import Flask
 from flask import request
 from flask import render_template
 from threading import Thread
-try:
-    # import version included with old SymPy
-    from sympy.mpmath import mp
-except ImportError:
-    # import newer version
-    from mpmath import mp
+from sympy.mpmath import mp
 app = Flask(__name__)  
 
 @app.route('/')
