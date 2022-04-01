@@ -1,0 +1,6 @@
+name: pi
+services:
+- name: web
+  github:
+    repo: 0nly6Ex/pi
+    branch: main
